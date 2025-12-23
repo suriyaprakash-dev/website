@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #020617;
+  position: sticky;
+  top: 0;
+}
+
+.navbar nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  background: linear-gradient(to right, #38bdf8, #a855f7);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero p {
+  color: #94a3b8;
+  margin: 15px 0 30px;
+}
+
+.hero-btns a {
+  margin-right: 15px;
+}
+
+/* BUTTONS */
+.btn-primary {
+  background: linear-gradient(135deg, #38bdf8, #a855f7);
+  padding: 12px 26px;
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  border: 1px solid #38bdf8;
+  padding: 12px 26px;
+  border-radius: 8px;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+/* TRUST */
+.trust {
+  display: flex;
+  justify-content: space-around;
+  background: #020617;
+  padding: 25px;
+  font-size: 0.95rem;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  width: 300px;
+}
+
+/* ABOUT */
+.about p {
+  max-width: 750px;
+  margin: auto;
+  color: #cbd5f5;
+}
+
+/* CTA */
+.cta {
+  background: linear-gradient(135deg, #020617, #1e293b);
+  text-align: center;
+  padding: 70px;
+}
+
+/* CONTACT */
+.contact p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+/* FOOTER */
+footer {
+  background: #020617;
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand img {
+  height: 60px;
+  width: auto;
+}
+
+.brand span {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #e5e7eb;
+}
