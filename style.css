@@ -148,3 +148,87 @@ footer {
   font-weight: 600;
   color: #e5e7eb;
 }
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar {
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 15px;
+  }
+
+  .navbar nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar nav a {
+    margin: 0;
+  }
+
+  /* HERO */
+  .hero {
+    height: auto;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  /* TRUST */
+  .trust {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  /* SECTIONS */
+  .section {
+    padding: 50px 20px;
+  }
+
+  /* PROGRAM CARDS */
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  /* CTA */
+  .cta {
+    padding: 50px 20px;
+  }
+}
+@media (max-width: 1024px) {
+
+  .hero {
+    padding: 0 40px;
+  }
+
+  .section {
+    padding: 70px 40px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 280px;
+  }
+}
